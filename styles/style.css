@@ -24,6 +24,7 @@ form input {
     border-width: 1px;
     background-color: rgb(255, 255, 255);
     outline: none !important;
+    text-indent: 20px;
 }
 
 form input:hover {
@@ -47,3 +48,105 @@ form input:hover {
     margin-left: 15px;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+  }
+
+a {
+    display: block;
+    padding: 10px;
+    font-size: 12px;
+    color: black;
+    text-decoration-line: none;
+  }
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+#gmail, #apps, #images, #signin {
+    float: right;
+  }
+
+#about, #store {
+    float: left;
+}
+
+#apps {
+    margin-left: 15px;
+    margin-top: -2px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: transparent;
+    border-radius: 100%;
+}
+
+#apps:hover {
+    background-color: rgb(241, 237, 237);
+}
+
+button i {
+    font-size: 30px;
+    color: rgb(143, 140, 140);
+    vertical-align: middle;
+}
+
+#signin {
+    color: white;
+    background-color: rgb(49, 103, 219);
+    font-size: 13px;
+    width: 95px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: -2px;
+}
+
+#signin:hover {
+    background-color: rgb(69, 117, 230);
+}
+
+#basepanel {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(241, 239, 239);
+    border-bottom: 1px solid rgb(175, 174, 174);
+}
+
+div p {
+    position: absolute;
+    font-size: 13px;
+    color: grey;
+    vertical-align: middle;
+    margin-left: 25px;
+}
+
+#basenavbar {
+    background-color: rgb(241, 239, 239);
+    overflow: hidden;
+}
+
+#basenavbar a {
+    padding: 10px;
+    color: grey;
+}
+
+#advertising, #business, #howsearchworks, #cns2007 {
+    float: left;
+}
+
+#advertising {
+    margin-left: 20px;
+}
+
+#privacy, #terms, #settings {
+    float: right;
+}
+
+#cns2007 {
+    margin-left: 30px;
+}

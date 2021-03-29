@@ -3,17 +3,38 @@
 <head>
     <link href="styles/style.css" rel="stylesheet">
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    <span style="display:block; height: 300px;"></span>
+    <ul>
+        <li><a href="about.asp" id="about">About</a></li>
+        <li><a href="store.asp" id="store">Store</a></li>
+        <li><input type="Button" id="signin" value="Sign In"/></li>
+        <li><button id="apps"><i class="material-icons">apps</i></button></li>
+        <li><a href="gmail.asp" id="gmail">Gmail</a></li>
+        <li><a href="images.asp" id="images">Images</a></li>
+      </ul> 
+    <span style="display:block; height: 280px;"></span>
     <div id="main">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
         <form id="search">
             <input type="text" id="searchbar">
         </form>
-        <input type="Button" ID="gs" value="Google Search"/>
-        <input type="Button" ID="ifl" value="I'm Feeling Lucky"/>
+        <input type="Button" id="gs" value="Google Search"/>
+        <input type="Button" id="ifl" value="I'm Feeling Lucky"/>
     </div>
-    <script src="scripts/main.js"></script>
+    <span style="display:block; height: 370px;"></span>
+    <div id="basepanel">
+        <p>United Kingdom</p>
+    </div>
+    <ul id="basenavbar">
+        <li><a href="advertising.asp" id="advertising">Advertising</a></li>
+        <li><a href="business.asp" id="business">Business</a></li>
+        <li><a href="howsearchworks.asp" id="howsearchworks">How Search Works</a></li>
+        <li><a href="howsearchworks.asp" id="cns2007">Carbon neutral since 2007</a></li>
+        <li><a href="privacy.asp" id="privacy">Privacy</a></li>
+        <li><a href="terms.asp" id="terms">Terms</a></li>
+        <li><a href="settings.asp" id="settings">Settings</a></li>
+    </ul>
 </body>
 </html>
